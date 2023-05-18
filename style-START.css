@@ -44,7 +44,7 @@ h1 {
 .fixed-nav{
   position:fixed;
   box-shadow: 0 5px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 nav {
@@ -80,10 +80,15 @@ li.logo {
   font-size: 30px;
 }
 
+
 li.logo a {
   color: black;
 }
 
+.fixed-nav li.logo{
+
+  max-width:500px;
+}
 nav a {
   text-decoration: none;
   padding: 20px;
